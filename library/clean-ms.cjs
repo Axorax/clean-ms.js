@@ -1,0 +1,1 @@
+const cleanMs=e=>[(e/864e5|0)+"d",(e%864e5/36e5|0)+"h",(e%36e5/6e4|0)+"m",(e%6e4/1e3|0)+"s"].filter(e=>"0"!=e[0]).join(" ");module.exports=cleanMs
